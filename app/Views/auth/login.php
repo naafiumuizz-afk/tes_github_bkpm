@@ -5,7 +5,11 @@
         <div class="col-md-5 col-lg-4">
             <div class="card shadow-sm border-0">
                 <div class="card-body p-4">
+<<<<<<< HEAD
                     <h1 class="h3 mb-4">Masuk Sistem Akademik</h1>
+=======
+                    <h1 class="h3 mb-4">Login Admin</h1>
+>>>>>>> conflict/login-title
                     <?php if (!empty($_SESSION['flash'])): ?>
                         <div class="alert alert-<?= htmlspecialchars($_SESSION['flash']['type'], ENT_QUOTES, 'UTF-8'); ?>" role="alert">
                             <?= htmlspecialchars($_SESSION['flash']['message'], ENT_QUOTES, 'UTF-8'); ?>
